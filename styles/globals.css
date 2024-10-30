@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+/* styles/globals.css */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --lightRed: hsl(0, 100%, 67%);
+  --orangeyYellow: hsl(39, 100%, 56%);
+  --greenTeal: hsl(166, 100%, 37%);
+  --cobaltBlue: hsl(234, 85%, 45%);
+  --lightSlateBlue: hsl(252, 100%, 67%);
+  --lightRoyalBlue: hsl(241, 81%, 54%);
+  --white: hsl(0, 0%, 100%);
+  --paleBlue: hsl(221, 100%, 96%);
+  --lightLavender: hsl(241, 100%, 89%);
+  --darkGrayBlue: hsl(224, 30%, 27%);
+  --lightRED:hsl(7, 91%, 97%);
+  --lightYELLOW: hsl(39, 100%, 97%);
+  --lightTEAL: hsl(166, 100%, 97%);
+  --lightBLUE: hsl(234, 85%, 97%);
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,138 @@
+
+.container {
+    display: flex;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+  .containerMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(221, 100%, 96%); 
+  }
+  
+  .resultBox {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    flex: 1;
+    font-weight: 600;
+    border-radius: 32px;
+  }
+  
+  .scoreCircle {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 158px;
+    height: 154px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+    color: white;
+    gap: 5px; 
+}
+.scoreCircle:focus {
+    box-shadow: 0 0 8px rgba(0, 112, 243, 0.5);
+    outline: none; 
+}
+  .score {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .tscore {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: -10px;
+  }
+  
+  .outOf {
+    font-size: 1rem;
+  }
+  .toutOf {
+    font-size: 1rem;
+    margin-top: -10px;
+  }
+  .faded {
+    color: 	
+    #c0c0c0; 
+  }
+  
+  .status {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+  }
+  
+  .summaryBox {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(224, 30%, 27%);
+    padding: 2rem;
+    flex: 1;
+    font-weight: 600;
+
+  }
+  
+  .summaryBox h3 {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  .resultBox h3 {
+    font-size: 1.15rem;
+    margin-bottom: 2rem;
+    color: hsl(234, 48%, 87%);
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 38px;
+    margin-bottom: 18px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0.5rem; 
+}
+  
+  .icon {
+    margin-right: 0.5rem;
+  }
+  
+  .category {
+    flex: 1;
+    font-weight: 600;
+  }
+  
+  .score {
+    color: hsl(224, 30%, 27%);
+  }
+  
+  .continueButton {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    height: 38px;
+
+  }
+  .continueButton:hover {
+    background-color: #2c71b6; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+}
+  
